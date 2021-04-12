@@ -112,8 +112,7 @@ header .navbar ul li a{
     color:#fff;
 }
 
-header .navbar ul li a.active,
-header .navbar ul li a:hover{
+header .navbar ul li a.active, header .navbar ul li a:hover{
     color:#444;
 }
 
