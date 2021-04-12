@@ -112,7 +112,8 @@ header .navbar ul li a{
     color:#fff;
 }
 
-header .navbar ul li a.active, header .navbar ul li a:hover{
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
     color:#444;
 }
 
@@ -386,11 +387,9 @@ header #menu{
     background-size: cover;
     background-position: bottom;
 }
-
 .teacher .heading{
     color: #fff;
 }
-
 .teacher p{
     font-size: 1.8rem;
     color: rgb(252, 245, 245);
