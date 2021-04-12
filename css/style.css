@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 section{
     min-height: 100vh;
     padding:1rem 7%;
-    padding-top:6rem;
+    padding-top:39rem;
 }
 
 .btn{
@@ -72,7 +72,7 @@ section{
 }
 
 .heading{
-    color:#444;
+    color:#fff;
     padding:1rem;
     font-size: 4rem;
     text-align: center;
@@ -237,6 +237,12 @@ header #menu{
     color:#fff;
 }
 
+.home img{
+    height: 40vh;
+    width: 26%;
+    border-radius: 50%;
+}
+
 .home p{
     font-size: 1.9rem;
     color:rgb(153, 153, 153);
@@ -322,8 +328,8 @@ header #menu{
     padding:1rem;
 }
 
-.course .box-container .box .content .stars i{
-    color:#f39c12;
+.course .box-container .box .content .stars a{
+    color:#666;
     font-size: 1.7rem;
     padding:1rem .1rem;
 }
@@ -357,11 +363,12 @@ header #menu{
     color:#666;
 }
 
-.course .box-container .box .content .info h3 i{
-    color:#f39c12;
+.course .box-container .box .content .info h3 a{
+    color:#666;
+    border-bottom: 2px solid #666;
 }
 
-.course .box-container .box .price{
+/* .course .box-container .box .price{
     position: absolute;
     top:16rem; right:1rem;
     height:8rem;
@@ -372,18 +379,18 @@ header #menu{
     background:var(--gradient);
     color:#fff;
     font-size: 3rem;
-}
+} */
 
 .teacher{
     text-align: center;
-    background:url(../images/teachers.jfif) no-repeat;
+    background:url(../images/founder.jpeg) no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 
 .teacher p{
     font-size: 1.8rem;
-    color:#666;
+    color: rgb(252, 245, 245);
     width:65rem;
     margin:1rem auto;
 }
@@ -573,6 +580,11 @@ header #menu{
 
     .home h1{
         font-size: 4rem;
+    }
+    .home img{
+        height: 20vh;
+        width: 42%;
+        border-radius: 50%;
     }
 
     .home p{
