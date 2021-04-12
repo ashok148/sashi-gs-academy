@@ -72,7 +72,7 @@ section{
 }
 
 .heading{
-    color:#fff;
+    color:#666;
     padding:1rem;
     font-size: 4rem;
     text-align: center;
@@ -386,6 +386,10 @@ header #menu{
     background:url(../images/founder.jpeg) no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+.teacher .heading{
+    color: #fff;
 }
 
 .teacher p{
